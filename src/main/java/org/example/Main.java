@@ -13,20 +13,18 @@ public class Main {
 
     public static void main(String[] args) {
 
-        {
-            LinkedList<Employee> employees = new LinkedList<>();
+        LinkedList<Employee> employees = new LinkedList<>();
 
-            employees.add(new Employee(1, "Doğukan", "Bozkır"));
-            employees.add(new Employee(1, "Doğukan", "Bozkır"));
+        employees.add(new Employee(1, "Doğukan", "Bozkır"));
+        employees.add(new Employee(1, "Doğukan", "Bozkır"));
 
-            employees.add(new Employee(2, "Ahmet", "Yılmaz"));
-            employees.add(new Employee(2, "Ahmet", "Yılmaz"));
+        employees.add(new Employee(2, "Ahmet", "Yılmaz"));
+        employees.add(new Employee(2, "Ahmet", "Yılmaz"));
 
-            employees.add(new Employee(3, "Mehmet", "Demir"));
-            employees.add(new Employee(4, "Fatma", "Bakır"));
-            employees.add(new Employee(5, "Nuri", "Kartal"));
-            employees.add(new Employee(4, "Yavuz", "Yavuzel"));
-        }
+        employees.add(new Employee(3, "Mehmet", "Demir"));
+        employees.add(new Employee(4, "Fatma", "Bakır"));
+        employees.add(new Employee(5, "Nuri", "Kartal"));
+        employees.add(new Employee(4, "Yavuz", "Yavuzel"));
     }
 
     public static List<Employee> findDuplicates(List<Employee> employees) {
